@@ -70,12 +70,24 @@ main{
     background-color: rgb(254, 199, 180);
     color: #F7418F;
 }
+.plato-image{
+    margin-top: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: 2px solid #F7418F;
+    transition: all 0.3s ease;
+}
+.plato-image:hover{
+    transform: scale(1.05);
+}
 li {
     width: 100%;
     text-align: center;
     font-size: 15px;
     list-style: none;
     color: #F7418F;
+    padding: 2px;
 }
 .platos h4{
     margin-bottom: 20px;
